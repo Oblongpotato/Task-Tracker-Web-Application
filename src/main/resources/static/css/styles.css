@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 40px 20px; 
+    text-align: center;
+    box-sizing: border-box; 
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    width: 100%; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+    width: 100%; 
+    max-width: 500px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%; 
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Aligns buttons horizontally */
+    gap: 15px; /* Space between buttons */
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px 24px; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.delete-button {
+    background-color: #f44336 !important; /* Red background for delete button */
+}
+
+
+a {
+    text-decoration: none;
+}
+
+button,
+form button {
+    max-width: 150px;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+thead th {
+    padding: 10px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+tbody td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
